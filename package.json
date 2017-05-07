@@ -1,7 +1,7 @@
 {
   "name": "nanoreset",
   "version": "1.0.0",
-  "description": "Tiny and opinionated CSS reset",
+  "description": "Simple CSS reset(768 bytes)",
   "license": "MIT",
   "main": "nanoreset.css",
   "repository": {
