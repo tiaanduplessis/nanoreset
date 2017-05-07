@@ -1,5 +1,5 @@
 <div align="center">
-	<img src="banner.png" alt="nanoreset"/>
+	<img src="logo.png" alt="nanoreset"/>
 	<br>
   <strong>Tiny and opinionated 773 byte CSS reset</strong>
 </div>
