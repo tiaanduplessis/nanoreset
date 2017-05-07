@@ -1,0 +1,40 @@
+{
+  "name": "nanoreset",
+  "version": "1.0.0",
+  "description": "Tiny and opinionated CSS reset",
+  "license": "MIT",
+  "main": "nanoreset.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tiaanduplessis/nanoreset.git"
+  },
+  "homepage": "https://github.com/tiaanduplessis/nanoreset",
+  "bugs": "https://github.com/tiaanduplessis/nanoreset/issues",
+  "author": {
+    "name": "Tiaan",
+    "email": "tiaanduplessis@hotmail.com",
+    "url": "tiaan.beer"
+  },
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "csscomb nanoreset.css",
+    "build": "csso nanoreset.css --output nanoreset.min.css; cpy ./nanoreset.min.css docs",
+    "precommit": "npm test",
+    "prepublish": "npm test;npm run build"
+  },
+  "keywords": [
+    "css reset",
+    "reset",
+    "lightweight",
+    "tiny",
+    "nanoreset"
+  ],
+  "dependencies": {
+    "cpy-cli": "^1.0.1"
+  },
+  "devDependencies": {
+    "csscomb": "^4.0.1",
+    "csso-cli": "^1.0.0",
+    "husky": "^0.13.3"
+  }
+}
