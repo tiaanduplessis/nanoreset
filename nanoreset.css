@@ -82,6 +82,8 @@ main,
 menu,
 nav,
 section,
+small,
+hgroup,
 summary {
   display: block;
 }
