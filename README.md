@@ -1,7 +1,7 @@
 <div align="center">
 	<img src="logo.png" alt="nanoreset"/>
 	<br>
-  <strong>Simple CSS reset(768 bytes)</strong>
+  <strong>Simple CSS reset(779 B bytes)</strong>
 </div>
 <br>
 <div align="center">
