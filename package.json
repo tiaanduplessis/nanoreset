@@ -20,7 +20,8 @@
     "lint": "csscomb nanoreset.css",
     "build": "csso nanoreset.css --output nanoreset.min.css; cpy ./nanoreset.min.css docs",
     "precommit": "npm test",
-    "prepublish": "npm test;npm run build"
+    "prepublish": "npm test;npm run build",
+    "size": "gzip-size nanoreset.min.css"
   },
   "keywords": [
     "css reset",
@@ -35,6 +36,7 @@
   "devDependencies": {
     "csscomb": "^4.0.1",
     "csso-cli": "^1.0.0",
+    "gzip-size-cli": "^2.0.0",
     "husky": "^0.13.3"
   }
 }
