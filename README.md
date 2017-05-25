@@ -56,11 +56,17 @@
 <h2>Table of Contents</h2>
 <details>
   <summary>Table of Contents</summary>
+	<li><a href="#about">About</a></li>
   <li><a href="#install">Install</a></li>
   <li><a href="#demo">Demo</a></li>
+	<li><a href="#others">Others</a></li>
   <li><a href="#contribute">Contribute</a></li>
   <li><a href="#license">License</a></li>
 </details>
+
+## About
+
+[Nanoreset](https://github.com/tiaanduplessis/nanoreset) is an simple CSS reset intented to be lightweight while still providing an a solid base for your project. It differs from [other similar projects](#others) in that it is subjective to my use cases and preferences.
 
 ## Install
 
@@ -87,6 +93,14 @@ With CDN:
 ## Demo
 
 Checkout [the demo](https://tiaanduplessis.github.io/nanoreset/) using [HTML5 Test Page](https://github.com/cbracco/html5-test-page).
+
+## Others
+
+Some other great options:
+
+- [normalize.css](https://necolas.github.io/normalize.css/)
+- [sanitize.css](https://jonathantneal.github.io/sanitize.css/)
+- [minireset.css](https://github.com/jgthms/minireset.css)
 
 ## Contribute
 
