@@ -4,6 +4,7 @@
   "description": "Simple CSS reset(768 bytes)",
   "license": "MIT",
   "main": "nanoreset.css",
+  "style": "nanoreset.css",
   "repository": {
     "type": "git",
     "url": "https://github.com/tiaanduplessis/nanoreset.git"
