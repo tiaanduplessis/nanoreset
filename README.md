@@ -17,15 +17,6 @@
   <a href="https://travis-ci.org/tiaanduplessis/nanoreset">
     <img src="https://img.shields.io/travis/tiaanduplessis/nanoreset.svg?style=flat-square" alt="Travis Build" />
   </a>
-  <a href="https://github.com/RichardLitt/standard-readme)">
-    <img src="https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square" alt="Standard Readme" />
-  </a>
-  <a href="https://badge.fury.io/gh/tiaanduplessis%2Fnanoreset">
-    <img src="https://badge.fury.io/gh/tiaanduplessis%2Fnanoreset.svg?style=flat-square" alt="GitHub version" />
-  </a>
-  <a href="https://dependencyci.com/github/tiaanduplessis/nanoreset">
-    <img src="https://dependencyci.com/github/tiaanduplessis/nanoreset/badge?style=flat-square" alt="Dependency CI" />
-  </a>
   <a href="https://github.com/tiaanduplessis/nanoreset/blob/master/LICENSE">
     <img src="https://img.shields.io/npm/l/nanoreset.svg?style=flat-square" alt="License" />
   </a>
