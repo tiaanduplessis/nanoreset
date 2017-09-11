@@ -24,20 +24,12 @@
     "prepublish": "npm test;npm run build",
     "size": "gzip-size nanoreset.min.css"
   },
-  "keywords": [
-    "css reset",
-    "reset",
-    "lightweight",
-    "tiny",
-    "nanoreset"
-  ],
-  "dependencies": {
-    "cpy-cli": "^1.0.1"
-  },
+  "keywords": ["css reset", "reset", "lightweight", "tiny", "nanoreset"],
   "devDependencies": {
-    "csscomb": "^4.0.1",
-    "csso-cli": "^1.0.0",
-    "gzip-size-cli": "^2.0.0",
-    "husky": "^0.13.3"
+    "csscomb": "^4.2.0",
+    "csso-cli": "^1.1.0",
+    "gzip-size-cli": "^2.1.0",
+    "husky": "^0.14.3",
+    "cpy-cli": "^1.0.1"
   }
 }
