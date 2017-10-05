@@ -57,6 +57,8 @@
 
 ## About
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tiaanduplessis/nanoreset.svg)](https://greenkeeper.io/)
+
 [Nanoreset](https://github.com/tiaanduplessis/nanoreset) is an simple CSS reset intented to be lightweight while still providing an a solid base for your project. It differs from [other similar projects](#others) in that it is subjective to my use cases and preferences.
 
 ## Install
