@@ -73,12 +73,20 @@ $ yarn add nanoreset
 
 With CDN:
 
+In your html
+
 ```html
 
 <link rel="stylesheet" href="https://cdn.rawgit.com/tiaanduplessis/nanoreset/master/nanoreset.min.css">
 <!-- Or -->
 <link rel="stylesheet" href="https://unpkg.com/nanoreset/nanoreset.min.css">
 
+```
+
+or directly in your css
+
+```css
+@import url('https://unpkg.com/nanoreset/nanoreset.min.css')
 ```
 
 ## Demo
