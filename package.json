@@ -17,7 +17,7 @@
   "bugs": "https://github.com/tiaanduplessis/nanoreset/issues",
   "author": "Tiaan du Plessis",
   "scripts": {
-    "lint": "stylelint --fix nanoreset.css",
+    "test": "stylelint --fix nanoreset.css",
     "build": "csso nanoreset.css --output nanoreset.min.css; cpy ./nanoreset.min.css docs",
     "size": "gzip-size nanoreset.min.css"
   },
