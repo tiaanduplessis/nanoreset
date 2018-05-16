@@ -1,7 +1,7 @@
 <div align="center">
 	<img src="logo.png" alt="nanoreset"/>
 	<br>
-  <strong>Simple CSS reset(958 B bytes)</strong>
+  <strong>Simple CSS reset(959 B bytes)</strong>
 </div>
 <br>
 <div align="center">
@@ -28,32 +28,15 @@
   </a>
 </div>
 <br>
-<div align="center">
-  <a href="https://github.com/tiaanduplessis/nanoreset/watchers">
-    <img src="https://img.shields.io/github/watchers/tiaanduplessis/nanoreset.svg?style=social" alt="Github Watch Badge" />
-  </a>
-  <a href="https://github.com/tiaanduplessis/nanoreset/stargazers">
-    <img src="https://img.shields.io/github/stars/tiaanduplessis/nanoreset.svg?style=social" alt="Github Star Badge" />
-  </a>
-  <a href="https://twitter.com/intent/tweet?text=Check%20out%20nanoreset!%20https://github.com/tiaanduplessis/nanoreset%20%F0%9F%91%8D">
-    <img src="https://img.shields.io/twitter/url/https/github.com/tiaanduplessis/nanoreset.svg?style=social" alt="Tweet" />
-  </a>
-</div>
-<br>
-<div align="center">
-  Built with ❤︎ by <a href="tiaan.beer">Tiaan</a> and <a href="https://github.com/tiaanduplessis/nanoreset/graphs/contributors">contributors</a>
-</div>
 
-<h2>Table of Contents</h2>
-<details>
-  <summary>Table of Contents</summary>
-	<li><a href="#about">About</a></li>
-  <li><a href="#install">Install</a></li>
-  <li><a href="#demo">Demo</a></li>
-	<li><a href="#others">Others</a></li>
-  <li><a href="#contribute">Contribute</a></li>
-  <li><a href="#license">License</a></li>
-</details>
+## Table of Contents
+
+- [About](#about)
+- [Install](#install)
+- [Demo](#demo)
+- [Others](#others)
+- [Contribute](#contribute)
+- [License](#license)
 
 ## About
 
@@ -103,9 +86,7 @@ Some other great options:
 
 ## Contribute
 
-Contributions are welcome. Please open up an issue or create PR if you would like to help out.
-
-Note: If editing the README, please conform to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
+Contributions are welcome. Please open up an issue or create PR if you would like to help out. If editing the README, please conform to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
 
 ## License
 

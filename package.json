@@ -1,27 +1,24 @@
 {
   "name": "nanoreset",
   "version": "1.2.0",
-  "description": "Simple CSS reset(768 bytes)",
+  "description": "Simple CSS reset",
   "license": "MIT",
   "main": "nanoreset.css",
   "style": "nanoreset.css",
+  "files": [
+    "LICENSE",
+    "nanoreset.css"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/tiaanduplessis/nanoreset.git"
   },
   "homepage": "https://github.com/tiaanduplessis/nanoreset",
   "bugs": "https://github.com/tiaanduplessis/nanoreset/issues",
-  "author": {
-    "name": "Tiaan",
-    "email": "tiaanduplessis@hotmail.com",
-    "url": "tiaan.beer"
-  },
+  "author": "Tiaan du Plessis",
   "scripts": {
-    "test": "npm run lint",
-    "lint": "csscomb nanoreset.css",
+    "lint": "stylelint --fix nanoreset.css",
     "build": "csso nanoreset.css --output nanoreset.min.css; cpy ./nanoreset.min.css docs",
-    "precommit": "npm test",
-    "prepublish": "npm test;npm run build",
     "size": "gzip-size nanoreset.min.css"
   },
   "keywords": [
@@ -32,10 +29,13 @@
     "nanoreset"
   ],
   "devDependencies": {
-    "csscomb": "^4.2.0",
+    "cpy-cli": "^1.0.1",
     "csso-cli": "^1.1.0",
     "gzip-size-cli": "^2.1.0",
-    "husky": "^0.14.3",
-    "cpy-cli": "^1.0.1"
+    "stylelint": "^9.2.1",
+    "stylelint-config-standard": "^18.2.0"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-standard"
   }
 }
