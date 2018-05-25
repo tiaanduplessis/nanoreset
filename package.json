@@ -29,7 +29,7 @@
     "nanoreset"
   ],
   "devDependencies": {
-    "cpy-cli": "^1.0.1",
+    "cpy-cli": "^2.0.0",
     "csso-cli": "^1.1.0",
     "gzip-size-cli": "^2.1.0",
     "stylelint": "^9.2.1",
