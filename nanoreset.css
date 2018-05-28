@@ -160,9 +160,23 @@ td {
   vertical-align: top;
 }
 
+input {
+  line-height: normal;
+  border-radius: 0;
+}
+
 input,
 select {
   vertical-align: middle;
+}
+
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  text-transform: none;
+  border: 0;
 }
 
 input[type="radio"] {
@@ -171,6 +185,14 @@ input[type="radio"] {
 
 input[type="checkbox"] {
   vertical-align: bottom;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+input::-ms-reveal {
+  display: none;
 }
 
 strong,
@@ -194,10 +216,6 @@ a:hover {
   outline-width: 0;
 }
 
-input {
-  border-radius: 0;
-}
-
 label,
 input[type="file"],
 button,
@@ -210,15 +228,6 @@ button,
 
 [disabled] {
   cursor: default;
-}
-
-button,
-input,
-select,
-textarea {
-  margin: 0;
-  text-transform: none;
-  border: 0;
 }
 
 img {
