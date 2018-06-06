@@ -7,7 +7,8 @@
   "style": "nanoreset.css",
   "files": [
     "LICENSE",
-    "nanoreset.css"
+    "nanoreset.css",
+    "nanoreset.min.css"
   ],
   "repository": {
     "type": "git",
