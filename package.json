@@ -1,7 +1,7 @@
 {
   "name": "nanoreset",
   "version": "3.0.1",
-  "description": "Simple CSS reset",
+  "description": "Groovy CSS reset in less than a kilobyte",
   "license": "MIT",
   "main": "nanoreset.css",
   "style": "nanoreset.css",
@@ -33,7 +33,7 @@
     "cpy-cli": "^2.0.0",
     "csso-cli": "^2.0.0",
     "gzip-size-cli": "^3.0.0",
-    "stylelint": "^9.2.1",
+    "stylelint": "^9.9.0",
     "stylelint-config-standard": "^18.2.0"
   },
   "stylelint": {
