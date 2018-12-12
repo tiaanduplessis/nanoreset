@@ -1,7 +1,7 @@
 <div align="center">
-	<img src="logo.png" alt="nanoreset"/>
+	<img src="header.png" alt="nanoreset"/>
 	<br>
-  <strong>Simple CSS reset(985 B bytes)</strong>
+  <strong>Groovy CSS reset in less than a kilobyte</strong>
 </div>
 <br>
 <div align="center">
@@ -31,6 +31,7 @@
 
 ## Table of Contents
 
+- [Table of Contents](#table-of-contents)
 - [About](#about)
 - [Install](#install)
 - [Demo](#demo)
@@ -59,11 +60,7 @@ With CDN:
 In your html
 
 ```html
-
-<link rel="stylesheet" href="https://cdn.rawgit.com/tiaanduplessis/nanoreset/master/nanoreset.min.css">
-<!-- Or -->
 <link rel="stylesheet" href="https://unpkg.com/nanoreset/nanoreset.min.css">
-
 ```
 
 or directly in your css
@@ -78,7 +75,7 @@ Checkout [the demo](https://tiaanduplessis.github.io/nanoreset/) using [HTML5 Te
 
 ## Others
 
-Some other great options:
+Some other options:
 
 - [normalize.css](https://necolas.github.io/normalize.css/)
 - [sanitize.css](https://jonathantneal.github.io/sanitize.css/)
