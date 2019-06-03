@@ -700,9 +700,10 @@ cp-file@^6.0.0:
     pify "^3.0.0"
     safe-buffer "^5.0.1"
 
-cpy-cli@^2.0.0:
+cpy-cli@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/cpy-cli/-/cpy-cli-2.0.0.tgz#13f1528a231605c52ee7b7f74848e4be82253274"
+  integrity sha512-LzrtY3lBWvFZcw4lXgkEbbDUd7y78juC3C5l7gj3UyezMEZF0Be9fjCVLN1HoZAzdMDeC3KHehWpHBJvgVAPkw==
   dependencies:
     cpy "^7.0.0"
     meow "^5.0.0"
@@ -729,7 +730,7 @@ css-tree@1.0.0-alpha23:
     mdn-data "^1.0.0"
     source-map "^0.5.3"
 
-csso-cli@^2.0.0:
+csso-cli@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/csso-cli/-/csso-cli-2.0.0.tgz#87b771e98db0a25fac327ad3289f834b342d9b01"
   integrity sha512-oUWhgCgDiGQD8YiigPfiGcITsI3Ypi7z2TW2eg9bWb0+rpkten57trzHqRyCq8r0nve+l75Binq9bPhkVYbsjw==
@@ -1327,7 +1328,7 @@ graceful-fs@^4.1.2:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
-gzip-size-cli@^3.0.0:
+gzip-size-cli@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/gzip-size-cli/-/gzip-size-cli-3.0.0.tgz#b3f7ed1ad4ce70f06b2c80f749848fb5aca273fa"
   integrity sha512-QrOTU2SCtiWPYiWk5hYO0hYfDb/tGn3fb+03fCzDZf3cvAlp4HtIc+tsVjk84XNmdcaOCJOLvVFq8V+QUqyWqw==
@@ -2985,13 +2986,14 @@ stylelint-config-recommended@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/stylelint-config-recommended/-/stylelint-config-recommended-2.1.0.tgz#f526d5c771c6811186d9eaedbed02195fee30858"
 
-stylelint-config-standard@^18.2.0:
+stylelint-config-standard@18.2.0:
   version "18.2.0"
   resolved "https://registry.yarnpkg.com/stylelint-config-standard/-/stylelint-config-standard-18.2.0.tgz#6283149aba7f64f18731aef8f0abfb35cf619e06"
+  integrity sha512-07x0TaSIzvXlbOioUU4ORkCIM07kyIuojkbSVCyFWNVgXMXYHfhnQSCkqu+oHWJf3YADAnPGWzdJ53NxkoJ7RA==
   dependencies:
     stylelint-config-recommended "^2.1.0"
 
-stylelint@^10.0.0:
+stylelint@10.0.0:
   version "10.0.0"
   resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-10.0.0.tgz#5e7ad496d1a66671c068df327429133e2baf3264"
   integrity sha512-0WeIef88OPPLwbIDpHiHx56YJEPRuTuxkDwcqpFW626nGzykBBxbPk4z4Hbqb/mYPJ9AcEDZoOcPD8t4TcckZw==
