@@ -31,7 +31,7 @@
   ],
   "devDependencies": {
     "cpy-cli": "2.0.0",
-    "csso-cli": "2.0.0",
+    "csso-cli": "2.0.2",
     "gzip-size-cli": "3.0.0",
     "stylelint": "10.0.0",
     "stylelint-config-standard": "18.2.0"

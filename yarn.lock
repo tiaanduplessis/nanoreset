@@ -730,10 +730,10 @@ css-tree@1.0.0-alpha23:
     mdn-data "^1.0.0"
     source-map "^0.5.3"
 
-csso-cli@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/csso-cli/-/csso-cli-2.0.0.tgz#87b771e98db0a25fac327ad3289f834b342d9b01"
-  integrity sha512-oUWhgCgDiGQD8YiigPfiGcITsI3Ypi7z2TW2eg9bWb0+rpkten57trzHqRyCq8r0nve+l75Binq9bPhkVYbsjw==
+csso-cli@2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/csso-cli/-/csso-cli-2.0.2.tgz#145ab853ab2ce4a1c2f2832c83bd3080685ab6f5"
+  integrity sha512-/lyDbuXiCYUu6BKAdaX9fQiQXL7Mbhw7lI9G5ZR0A/olgcDzcabUVyOJOvLwXEIstaPMvvMyxbrOJIdGlNyZDA==
   dependencies:
     chokidar "^1.6.1"
     clap "^1.0.9"
