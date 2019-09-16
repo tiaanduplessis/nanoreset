@@ -1,6 +1,6 @@
 {
   "name": "nanoreset",
-  "version": "3.0.2",
+  "version": "4.0.0",
   "description": "Groovy CSS reset in less than a kilobyte",
   "license": "MIT",
   "main": "nanoreset.css",
