@@ -64,10 +64,9 @@ html {
     Cantarell,
     "Helvetica Neue",
     sans-serif;
-  line-height: 1.15;
   overflow-y: scroll;
   box-sizing: border-box;
-  height: 100%;
+	scroll-behavior: smooth;
 }
 
 *,
@@ -78,9 +77,9 @@ html {
 }
 
 body {
-  height: 100%;
-  line-height: 1;
-  text-rendering: optimizeLegibility;
+	min-height: 100vh;
+	text-rendering: optimizeSpeed;
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -110,6 +109,15 @@ audio,
 video {
   max-width: 100%;
   height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: 1.2;
 }
 
 iframe {
@@ -150,14 +158,6 @@ sub {
 table {
   border-spacing: 0;
   border-collapse: collapse;
-}
-
-caption,
-th,
-td {
-  font-weight: normal;
-  text-align: left;
-  vertical-align: top;
 }
 
 input {
@@ -201,10 +201,6 @@ b {
   font-weight: bold;
 }
 
-small {
-  font-size: 80%;
-}
-
 abbr,
 acronym {
   cursor: help;
@@ -228,16 +224,14 @@ button,
 }
 
 [disabled] {
-  cursor: default;
+  cursor: not-allowed;
 }
 
-img {
-  border-style: none;
-}
-
-pre,
-code,
-kbd,
-samp {
-  font-family: monospace;
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
