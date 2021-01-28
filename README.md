@@ -23,9 +23,6 @@
   <a href="http://makeapullrequest.com">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs" />
   </a>
-<a href="https://greenkeeper.io/">
-    <img src="https://badges.greenkeeper.io/tiaanduplessis/nanoreset.svg" alt="Greenkeeper" />
-  </a>
 </div>
 <br>
 
