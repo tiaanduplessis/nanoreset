@@ -1,7 +1,7 @@
 {
   "name": "nanoreset",
   "version": "5.0.0",
-  "description": "Groovy CSS reset in less than a kilobyte",
+  "description": "Groovy CSS reset in less than a 500 bytes",
   "license": "MIT",
   "main": "nanoreset.css",
   "style": "nanoreset.css",
@@ -30,11 +30,11 @@
     "nanoreset"
   ],
   "devDependencies": {
-    "cpy-cli": "2.0.0",
+    "cpy-cli": "4.1.0",
     "csso-cli": "3.0.0",
-    "gzip-size-cli": "3.0.0",
-    "stylelint": "12.0.0",
-    "stylelint-config-standard": "19.0.0"
+    "gzip-size-cli": "5.1.0",
+    "stylelint": "14.8.2",
+    "stylelint-config-standard": "25.0.0"
   },
   "stylelint": {
     "extends": "stylelint-config-standard"
