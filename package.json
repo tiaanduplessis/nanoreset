@@ -20,7 +20,8 @@
   "scripts": {
     "test": "stylelint --fix nanoreset.css",
     "build": "cleancss -o nanoreset.min.css nanoreset.css; cpy ./nanoreset.min.css docs",
-    "size": "gzip-size nanoreset.min.css"
+    "size": "gzip-size nanoreset.min.css",
+    "validate": "pnpm test && pnpm run build && pnpm run size"
   },
   "keywords": [
     "css reset",
