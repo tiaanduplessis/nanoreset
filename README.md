@@ -1,7 +1,7 @@
 <div align="center">
 	<img src="header.png" alt="nanoreset"/>
 	<br>
-  <strong>Groovy CSS reset in less than a kilobyte</strong>
+  <strong>Minimal CSS reset in less than 500 bytes</strong>
 </div>
 <br>
 <div align="center">
@@ -13,9 +13,6 @@
   </a>
   <a href="https://github.com/feross/standard">
     <img src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square" alt="Standard" />
-  </a>
-  <a href="https://travis-ci.org/tiaanduplessis/nanoreset">
-    <img src="https://img.shields.io/travis/tiaanduplessis/nanoreset.svg?style=flat-square" alt="Travis Build" />
   </a>
   <a href="https://github.com/tiaanduplessis/nanoreset/blob/master/LICENSE">
     <img src="https://img.shields.io/npm/l/nanoreset.svg?style=flat-square" alt="License" />
@@ -29,38 +26,40 @@
 ## Table of Contents
 
 - [Table of Contents](#table-of-contents)
-- [About](#about)
+- [Background](#background)
 - [Install](#install)
 - [Demo](#demo)
-- [Others](#others)
 - [Contribute](#contribute)
 - [License](#license)
 
-## About
+## Background
 
-[Nanoreset](https://github.com/tiaanduplessis/nanoreset) is an simple CSS reset intented to be lightweight while still providing an a solid base for your project. It differs from [other similar projects](#others) in that it is subjective to my use cases and preferences.
+[Nanoreset](https://github.com/tiaanduplessis/nanoreset) is an minimal CSS reset intented for modern web apps. It is heavily based on [Josh's Custom CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/) with slight modifcations for my use cases.
 
 ## Install
 
 With package manager:
 
+with `npm`:
+
 ```sh
+npm install nanoreset
+```
 
-$ npm install --save nanoreset
-# OR
-$ yarn add nanoreset
-
+with `yarn`:
+```sh
+yarn add nanoreset
 ```
 
 With CDN:
 
-In your html
+In your HTML:
 
 ```html
 <link rel="stylesheet" href="https://unpkg.com/nanoreset/nanoreset.min.css">
 ```
 
-or directly in your css
+or directly in your CSS:
 
 ```css
 @import url('https://unpkg.com/nanoreset/nanoreset.min.css')
@@ -69,14 +68,6 @@ or directly in your css
 ## Demo
 
 Checkout [the demo](https://tiaanduplessis.github.io/nanoreset/) using [HTML5 Test Page](https://github.com/cbracco/html5-test-page).
-
-## Others
-
-Some other options:
-
-- [normalize.css](https://necolas.github.io/normalize.css/)
-- [sanitize.css](https://jonathantneal.github.io/sanitize.css/)
-- [minireset.css](https://github.com/jgthms/minireset.css)
 
 ## Contribute
 

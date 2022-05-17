@@ -1,7 +1,7 @@
 {
   "name": "nanoreset",
   "version": "5.0.0",
-  "description": "Groovy CSS reset in less than a 500 bytes",
+  "description": "Minimal CSS reset in less than 500 bytes",
   "license": "MIT",
   "main": "nanoreset.css",
   "style": "nanoreset.css",
@@ -19,7 +19,7 @@
   "author": "Tiaan du Plessis",
   "scripts": {
     "test": "stylelint --fix nanoreset.css",
-    "build": "csso nanoreset.css --output nanoreset.min.css; cpy ./nanoreset.min.css docs",
+    "build": "cleancss -o nanoreset.min.css nanoreset.css; cpy ./nanoreset.min.css docs",
     "size": "gzip-size nanoreset.min.css"
   },
   "keywords": [
@@ -30,8 +30,8 @@
     "nanoreset"
   ],
   "devDependencies": {
+    "clean-css-cli": "^5.6.0",
     "cpy-cli": "4.1.0",
-    "csso-cli": "3.0.0",
     "gzip-size-cli": "5.1.0",
     "stylelint": "14.8.2",
     "stylelint-config-standard": "25.0.0"
