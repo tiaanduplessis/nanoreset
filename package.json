@@ -1,6 +1,6 @@
 {
   "name": "nanoreset",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "description": "Minimal CSS reset in less than 500 bytes",
   "license": "MIT",
   "main": "nanoreset.css",
