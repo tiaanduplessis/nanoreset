@@ -34,7 +34,7 @@
     "clean-css-cli": "^5.6.0",
     "cpy-cli": "4.1.0",
     "gzip-size-cli": "5.1.0",
-    "stylelint": "14.8.2",
+    "stylelint": "15.10.1",
     "stylelint-config-standard": "25.0.0"
   },
   "stylelint": {
