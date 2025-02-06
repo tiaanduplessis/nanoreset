@@ -1,6 +1,6 @@
 {
   "name": "nanoreset",
-  "version": "6.0.0",
+  "version": "7.0.0",
   "description": "Minimal CSS reset in less than 500 bytes",
   "license": "MIT",
   "main": "nanoreset.css",
@@ -31,7 +31,7 @@
     "nanoreset"
   ],
   "devDependencies": {
-    "clean-css-cli": "^5.6.0",
+    "clean-css-cli": "^5.6.3",
     "cpy-cli": "4.1.0",
     "gzip-size-cli": "5.1.0",
     "stylelint": "14.8.2",
