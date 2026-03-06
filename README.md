@@ -4,24 +4,6 @@
   <strong>Minimal CSS reset in less than 500 bytes</strong>
 </div>
 <br>
-<div align="center">
-  <a href="https://npmjs.org/package/nanoreset">
-    <img src="https://img.shields.io/npm/v/nanoreset.svg?style=flat-square" alt="Package version" />
-  </a>
-  <a href="https://npmjs.org/package/nanoreset">
-  <img src="https://img.shields.io/npm/dm/nanoreset.svg?style=flat-square" alt="Downloads" />
-  </a>
-  <a href="https://github.com/feross/standard">
-    <img src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square" alt="Standard" />
-  </a>
-  <a href="https://github.com/tiaanduplessis/nanoreset/blob/master/LICENSE">
-    <img src="https://img.shields.io/npm/l/nanoreset.svg?style=flat-square" alt="License" />
-  </a>
-  <a href="http://makeapullrequest.com">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs" />
-  </a>
-</div>
-<br>
 
 ## Table of Contents
 
@@ -40,13 +22,14 @@
 
 With package manager:
 
-with `npm`:
-
 ```sh
 npm install nanoreset
 ```
 
-with `yarn`:
+```sh
+pnpm add nanoreset
+```
+
 ```sh
 yarn add nanoreset
 ```

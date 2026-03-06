@@ -32,10 +32,10 @@
   ],
   "devDependencies": {
     "clean-css-cli": "^5.6.3",
-    "cpy-cli": "4.1.0",
+    "cpy-cli": "7.0.0",
     "gzip-size-cli": "5.1.0",
-    "stylelint": "14.8.2",
-    "stylelint-config-standard": "25.0.0"
+    "stylelint": "17.4.0",
+    "stylelint-config-standard": "40.0.0"
   },
   "stylelint": {
     "extends": "stylelint-config-standard"
