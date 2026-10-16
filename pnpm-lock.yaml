@@ -19,10 +19,10 @@ importers:
         version: 5.1.0
       stylelint:
         specifier: 17.4.0
-        version: 17.4.0
+        version: 17.4.0(supports-color@10.2.2)
       stylelint-config-standard:
         specifier: 40.0.0
-        version: 40.0.0(stylelint@17.4.0)
+        version: 40.0.0(stylelint@17.4.0(supports-color@10.2.2))
 
 packages:
 
@@ -687,8 +687,8 @@ packages:
     resolution: {integrity: sha512-qMCMfhY040cVHT43K9BFygqYbUPFZKHOg7K73mtTWJRb8pyP3fzf4Ixd5SzdEJQ6MRUg/WBnOLxghZtKKurENQ==}
     engines: {node: '>=10'}
 
-  source-map-js@1.2.1:
-    resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
+  source-map-js@1.2.2:
+    resolution: {integrity: sha512-KGj/8Y43x35aZVDtt+J4mK1hoLGHULMYfSkODJNQjNDC3oW1PqPoxMwo0pLUsWM/UEGzON/NxeHywEfNXNP3Vw==}
     engines: {node: '>=0.10.0'}
 
   source-map@0.6.1:
@@ -1011,13 +1011,15 @@ snapshots:
   css-tree@3.2.1:
     dependencies:
       mdn-data: 2.27.1
-      source-map-js: 1.2.1
+      source-map-js: 1.2.2
 
   cssesc@3.0.0: {}
 
-  debug@4.4.3:
+  debug@4.4.3(supports-color@10.2.2):
     dependencies:
       ms: 2.1.3
+    optionalDependencies:
+      supports-color: 10.2.2
 
   decamelize-keys@1.1.1:
     dependencies:
@@ -1353,7 +1355,7 @@ snapshots:
     dependencies:
       nanoid: 3.3.11
       picocolors: 1.1.1
-      source-map-js: 1.2.1
+      source-map-js: 1.2.2
 
   pretty-bytes@5.6.0: {}
 
@@ -1409,7 +1411,7 @@ snapshots:
       astral-regex: 2.0.0
       is-fullwidth-code-point: 3.0.0
 
-  source-map-js@1.2.1: {}
+  source-map-js@1.2.2: {}
 
   source-map@0.6.1: {}
 
@@ -1450,16 +1452,16 @@ snapshots:
     dependencies:
       min-indent: 1.0.1
 
-  stylelint-config-recommended@18.0.0(stylelint@17.4.0):
+  stylelint-config-recommended@18.0.0(stylelint@17.4.0(supports-color@10.2.2)):
     dependencies:
-      stylelint: 17.4.0
+      stylelint: 17.4.0(supports-color@10.2.2)
 
-  stylelint-config-standard@40.0.0(stylelint@17.4.0):
+  stylelint-config-standard@40.0.0(stylelint@17.4.0(supports-color@10.2.2)):
     dependencies:
-      stylelint: 17.4.0
-      stylelint-config-recommended: 18.0.0(stylelint@17.4.0)
+      stylelint: 17.4.0(supports-color@10.2.2)
+      stylelint-config-recommended: 18.0.0(stylelint@17.4.0(supports-color@10.2.2))
 
-  stylelint@17.4.0:
+  stylelint@17.4.0(supports-color@10.2.2):
     dependencies:
       '@csstools/css-calc': 3.1.1(@csstools/css-parser-algorithms@4.0.0(@csstools/css-tokenizer@4.0.0))(@csstools/css-tokenizer@4.0.0)
       '@csstools/css-parser-algorithms': 4.0.0(@csstools/css-tokenizer@4.0.0)
@@ -1472,7 +1474,7 @@ snapshots:
       cosmiconfig: 9.0.1
       css-functions-list: 3.3.3
       css-tree: 3.2.1
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@10.2.2)
       fast-glob: 3.3.3
       fastest-levenshtein: 1.0.16
       file-entry-cache: 11.1.2
